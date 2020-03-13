@@ -1,20 +1,35 @@
 .tile {
   display: inline-flex;
-  background-color: #42b842;
 }
 
 .grass {
-  background-color: #42b842;
+  background-image: url("/tiles/rsz_grass.png");
 }
 
 .rock {
-  background-image: url("/tiles/rsz_rock.png");
+  background-image: url("/tiles/rsz_pokemonrock.png");
 }
 
 .tree {
-  background-image: url("/tiles/rsz_tree.png");
+  background-image: url("/tiles/rsz_pokemontree.png");
 }
 
-.chest {
-  background-image: url("/tiles/rsz_chest.png");
+.snorlax {
+  background-image: url("/tiles/rsz_snorlax.png");
+}
+
+.bulbasaur {
+  background-image: url("/tiles/rsz_bulbasaur.png");
+}
+
+.pikachu {
+  background-image: url("/tiles/rsz_pikachu.png");
+}
+
+.charmander {
+  background-image: url("/tiles/rsz_charmander.png");
+}
+
+.house {
+  background-image: url("/tiles/rsz_house.png");
 }

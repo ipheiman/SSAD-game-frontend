@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import walkSprite from "./player_walk.png";
+//import walkSprite from "./player_walk.png";
+import walkSprite from "./rsz_pokemonplayer.png";
 import handleMovement from "./movement";
 
 function Player(props) {

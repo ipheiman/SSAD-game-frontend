@@ -3,10 +3,14 @@ import { connect } from "react-redux";
 import { SPRITE_SIZE } from "../../config/constants";
 import "./styles.css";
 
+//action
 function getTileSprite(type) {
   switch (type) {
     case 0:
       return "grass";
+
+    case 4:
+      return "house";
 
     case 5:
       return "rock";
@@ -15,10 +19,20 @@ function getTileSprite(type) {
       return "tree";
 
     case 7:
-      return "chest";
+      return "snorlax";
+
+    case 8:
+      return "pikachu";
+
+    case 9:
+      return "charmander";
+
+    case 10:
+      return "bulbasaur";
   }
 }
 
+//action
 function MapTile(props) {
   return (
     <div
@@ -27,10 +41,13 @@ function MapTile(props) {
         height: SPRITE_SIZE,
         width: SPRITE_SIZE
       }}
-    ></div>
+    >
+      {props.tile}
+    </div>
   );
 }
 
+//action
 function MapRow(props) {
   return (
     <div
@@ -46,6 +63,7 @@ function MapRow(props) {
   );
 }
 
+//action
 function Map(props) {
   return (
     <div
@@ -53,8 +71,8 @@ function Map(props) {
         position: "relative",
         top: "0px",
         left: "0px",
-        width: "800px",
-        height: "480px",
+        width: "1200px",
+        height: "640px",
         border: "4px solid white"
       }}
     >

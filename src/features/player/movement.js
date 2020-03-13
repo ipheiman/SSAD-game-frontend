@@ -17,22 +17,22 @@ export default function handleMovement(player) {
   function getSpriteLocation(direction, walkIndex) {
     switch (direction) {
       case "EAST":
-        return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 1}px`;
+        return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 2}px`;
 
       case "SOUTH":
         return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 0}px`;
 
       case "WEST":
-        return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 2}px`;
+        return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 3}px`;
 
       case "NORTH":
-        return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 3}px`;
+        return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 1}px`;
     }
   }
 
   function getWalkIndex() {
     const walkIndex = store.getState().player.walkIndex;
-    return walkIndex >= 7 ? 0 : walkIndex + 1;
+    return walkIndex >= 3 ? 0 : walkIndex + 1;
   }
 
   //true false function
@@ -51,9 +51,9 @@ export default function handleMovement(player) {
     const x = newPos[0] / SPRITE_SIZE;
     const nextTile = tiles[y][x];
 
-    return nextTile < 5;
+    return nextTile < 3 || nextTile > 6;
   }
-
+  //dispatch
   function dispatchMove(direction, newPos) {
     const walkIndex = getWalkIndex();
     store.dispatch({
