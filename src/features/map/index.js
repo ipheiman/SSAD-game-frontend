@@ -25,10 +25,25 @@ function getTileSprite(type) {
       return "pikachu";
 
     case 9:
-      return "charmander";
+      return "charizard";
 
     case 10:
       return "bulbasaur";
+
+    case 11:
+      return "dratini";
+
+    case 12:
+      return "jigglypuff";
+
+    case 13:
+      return "mario";
+
+    case 14:
+      return "farfetch";
+
+    case 15:
+      return "whale";
   }
 }
 
@@ -42,7 +57,7 @@ function MapTile(props) {
         width: SPRITE_SIZE
       }}
     >
-      {props.tile}
+      {/* {props.tile} */}
     </div>
   );
 }

@@ -26,10 +26,30 @@
   background-image: url("/tiles/rsz_pikachu.png");
 }
 
-.charmander {
-  background-image: url("/tiles/rsz_charmander.png");
+.charizard {
+  background-image: url("/tiles/rsz_charizard.png");
 }
 
 .house {
   background-image: url("/tiles/rsz_house.png");
+}
+
+.mario {
+  background-image: url("/tiles/rsz_mario.png");
+}
+
+.dratini {
+  background-image: url("/tiles/rsz_dratini.png");
+}
+
+.farfetch {
+  background-image: url("/tiles/rsz_farfetch.png");
+}
+
+.jigglypuff {
+  background-image: url("/tiles/rsz_jigglypuff.png");
+}
+
+.whale {
+  background-image: url("/tiles/rsz_whale.png");
 }

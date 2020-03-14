@@ -1,5 +1,6 @@
 import store from "../../config/store";
 import { SPRITE_SIZE, MAP_WIDTH, MAP_HEIGHT } from "../../config/constants";
+
 export default function handleMovement(player) {
   function getNewPosition(oldPos, direction) {
     switch (direction) {
@@ -51,8 +52,9 @@ export default function handleMovement(player) {
     const x = newPos[0] / SPRITE_SIZE;
     const nextTile = tiles[y][x];
 
-    return nextTile < 3 || nextTile > 6;
+    return nextTile < 3;
   }
+  // || nextTile > 6
   //dispatch
   function dispatchMove(direction, newPos) {
     const walkIndex = getWalkIndex();
