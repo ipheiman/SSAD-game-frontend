@@ -54,7 +54,15 @@ export default function handleMovement(player) {
 
     return nextTile < 3;
   }
-  // || nextTile > 6
+  function passThroughImpassable(oldPos, newPos) {
+    const tiles = store.getState().map.tiles;
+    const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
+    const x = newPos[0] / SPRITE_SIZE;
+    const nextTile = tiles[y][x];
+
+    return nextTile < 3 || nextTile > 6;
+  }
+
   //dispatch
   function dispatchMove(direction, newPos) {
     const walkIndex = getWalkIndex();
@@ -67,6 +75,18 @@ export default function handleMovement(player) {
         spriteLocation: getSpriteLocation(direction, walkIndex)
       }
     });
+  }
+
+  // this function is almost the same as attempt move except it will allow u to move thru obstacles, this is for demo
+  function removeObstacle(direction) {
+    const oldPos = store.getState().player.position;
+    const newPos = getNewPosition(oldPos, direction);
+
+    if (
+      observeBoundaries(oldPos, newPos) &&
+      passThroughImpassable(oldPos, newPos)
+    )
+      dispatchMove(direction, newPos);
   }
 
   function attemptMove(direction) {
@@ -89,6 +109,12 @@ export default function handleMovement(player) {
         return attemptMove("EAST");
       case 40:
         return attemptMove("SOUTH");
+
+      case 32:
+        return removeObstacle("SOUTH") || removeObstacle("WEST");
+      //   removeObstacle("EAST") ||
+      // removeObstacle("NORTH") ||
+      //   removeObstacle("WEST")
 
       default:
         console.log(e.keyCode);
