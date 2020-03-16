@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import { SPRITE_SIZE } from "../../config/constants";
 import "./styles.css";
 
@@ -80,6 +79,7 @@ function MapRow(props) {
 
 //action
 function Map(props) {
+  console.log(props.tiles);
   return (
     <div
       style={{
@@ -97,10 +97,5 @@ function Map(props) {
     </div>
   );
 }
-function mapStateToProps(state) {
-  return {
-    tiles: state.map.tiles
-  };
-}
 
-export default connect(mapStateToProps)(Map);
+export default Map;

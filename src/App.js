@@ -18,14 +18,23 @@ class App extends Component {
 
   handleKeyPress(event) {
     if (event.keyCode === 32) {
-      this.togglePopup();
+      this.openPopup();
+    }
+    //TODO: hides when user completes the question, send results to backend
+    if (event.keyCode === 27) { 
+      this.hidePopup();
     }
   }
-  //originally state is false
-  //togglepopup sets the state to true so that popup will open
-  togglePopup() {
+
+  openPopup() {
     this.setState({
-      showPopup: !this.state.showPopup
+      showPopup: true
+    });
+  }
+
+  hidePopup() {
+    this.setState({
+      showPopup: false
     });
   }
 
@@ -42,8 +51,9 @@ class App extends Component {
 
         {this.state.showPopup ? (
           <Popup
+            //TODO: fetches question according to coordinates
             text="QUIZ QUESTION"
-            closePopup={this.togglePopup.bind(this)}
+            closePopup={this.hidePopup.bind(this)}
           />
         ) : null}
       </div>

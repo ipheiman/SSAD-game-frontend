@@ -1,4 +1,4 @@
-export const tiles = [
+export var tiles = [
   [
     0,
     0,
@@ -38,7 +38,7 @@ export const tiles = [
     6,
     0,
     0,
-    0,
+    7,
     0,
     0,
     0,

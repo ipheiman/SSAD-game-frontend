@@ -51,9 +51,10 @@ export default function handleMovement(player) {
     const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
     const x = newPos[0] / SPRITE_SIZE;
     const nextTile = tiles[y][x];
-
+    //TODO: 
     return nextTile < 3;
   }
+
   function passThroughImpassable(oldPos, newPos) {
     const tiles = store.getState().map.tiles;
     const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
@@ -77,7 +78,7 @@ export default function handleMovement(player) {
     });
   }
 
-  // this function is almost the same as attempt move except it will allow u to move thru obstacles, this is for demo
+  //this function is almost the same as attempt move except it will allow u to move thru obstacles, this is for demo
   function removeObstacle(direction) {
     const oldPos = store.getState().player.position;
     const newPos = getNewPosition(oldPos, direction);
@@ -92,7 +93,7 @@ export default function handleMovement(player) {
   function attemptMove(direction) {
     const oldPos = store.getState().player.position;
     const newPos = getNewPosition(oldPos, direction);
-
+    //TODO: Don't allow player to move if quiz-in-progress aka togglePopup is true
     if (observeBoundaries(oldPos, newPos) && observeImpassable(oldPos, newPos))
       dispatchMove(direction, newPos);
   }
@@ -123,5 +124,6 @@ export default function handleMovement(player) {
   window.addEventListener("keydown", e => {
     handleKeyDown(e);
   });
+
   return player;
 }
