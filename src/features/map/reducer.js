@@ -1,3 +1,5 @@
+// THIS IS NOT IN USE, ALL CODE IN INDEX.JS
+
 const initialState = {
   tiles: []
 };

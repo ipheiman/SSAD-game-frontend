@@ -1,61 +1,27 @@
 import React, { Component } from "react";
 import World from "./features/world";
 import ReactPlayer from "react-player";
-import Popup from "./features/Popup";
+
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { showPopup: false };
-    this.handleKeyPress = this.handleKeyPress.bind(this);
-  }
-  componentDidMount() {
-    document.addEventListener("keydown", this.handleKeyPress);
-  }
-  componentWillUnmount() {
-    document.removeEventListener("keydown", this.handleKeyPress);
-  }
+  // constructor(props) {
+  //   super(props);
+    
+  // }
 
-  handleKeyPress(event) {
-    if (event.keyCode === 32) {
-      this.openPopup();
-    }
-    //TODO: hides when user completes the question, send results to backend
-    if (event.keyCode === 27) { 
-      this.hidePopup();
-    }
-  }
-
-  openPopup() {
-    this.setState({
-      showPopup: true
-    });
-  }
-
-  hidePopup() {
-    this.setState({
-      showPopup: false
-    });
-  }
 
   render() {
     return (
       <div>
         <World />
-        <ReactPlayer
+        {/* <ReactPlayer
           width="0%"
           height="0%"
           url="https://www.youtube.com/watch?v=5O3a5opHbY4&t=18s"
           playing
-        />
+        /> */}
 
-        {this.state.showPopup ? (
-          <Popup
-            //TODO: fetches question according to coordinates
-            text="QUIZ QUESTION"
-            closePopup={this.hidePopup.bind(this)}
-          />
-        ) : null}
+
       </div>
     );
   }

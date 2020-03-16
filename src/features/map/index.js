@@ -43,6 +43,8 @@ function getTileSprite(type) {
 
     case 15:
       return "whale";
+    default:
+      break;
   }
 }
 

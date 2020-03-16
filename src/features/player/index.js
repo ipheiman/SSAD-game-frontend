@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import walkSprite from "./rsz_pokemonplayer.png";
 import { SPRITE_SIZE, MAP_WIDTH, MAP_HEIGHT } from "../../config/constants";
 
@@ -19,6 +18,7 @@ class Player extends React.Component {
       this.handleKeyDown(e);
     });
   }
+
   getNewPosition(oldPos, direction) {
     switch (direction) {
       case "WEST":
@@ -29,6 +29,8 @@ class Player extends React.Component {
         return [oldPos[0], oldPos[1] - SPRITE_SIZE];
       case "SOUTH":
         return [oldPos[0], oldPos[1] + SPRITE_SIZE];
+      default:
+        break;
     }
   }
 
@@ -45,6 +47,8 @@ class Player extends React.Component {
 
       case "NORTH":
         return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 1}px`;
+      default:
+        break;
     }
   }
 
@@ -68,7 +72,6 @@ class Player extends React.Component {
     const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
     const x = newPos[0] / SPRITE_SIZE;
     const nextTile = tiles[y][x];
-    //TODO: 
     return nextTile < 3;
   }
 
@@ -101,16 +104,8 @@ class Player extends React.Component {
     });
   }
 
-  //this is almost the same as attempt move except it will allow u to move thru obstacles, this is for demo
+  //remove pokemon after pressing spacebar when beside the pokemon
   removeObstacle() {
-    
-    // const newPos = this.getNewPosition(oldPos, direction);
-
-    // if (
-    //   this.observeBoundaries(oldPos, newPos) &&
-    //   this.passThroughImpassable(oldPos, newPos)
-    // )
-    //   this.dispatchMove(direction, newPos);
     const oldPos = this.state.position;
     const direction = this.state.direction;
     const newPos = this.getNewPosition(oldPos, direction);
@@ -141,11 +136,8 @@ class Player extends React.Component {
       case 40:
         return this.attemptMove("SOUTH");
 
-      case 32:
+      case 32: //spacebar
         return this.removeObstacle();
-      //   removeObstacle("EAST") ||
-      // removeObstacle("NORTH") ||
-      //   removeObstacle("WEST")
 
       default:
         console.log(e.keyCode);

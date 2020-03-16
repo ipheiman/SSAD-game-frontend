@@ -1,3 +1,5 @@
+// THIS IS NOT IN USE, ALL CODE IN INDEX.JS
+
 const initialState = {
   position: [0, 0],
   spriteLocation: "0px 0px",

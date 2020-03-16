@@ -2,15 +2,42 @@ import React, { Component } from "react";
 import Player from "../player";
 import Map from "../map";
 import { tiles } from "../../data/maps/1";
-import store from "../../config/store";
 import { SPRITE_SIZE } from "../../config/constants";
+import Popup from "../Popup";
 
 class World extends Component {
   constructor(props) {
     super(props);
+    // this.handleKeyPress = this.handleKeyPress.bind(this);
     this.state = {
       tiles: tiles,
-      questions: 
+      showPopup: false
+      // questions: 
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener("keydown", e => {
+      this.handleKeyDown(e);
+    });
+  }
+
+  hidePopup = () => {
+    this.setState({
+      showPopup: false
+    });
+  }
+
+  handleKeyDown(e) {
+    e.preventDefault();
+
+    switch (e.keyCode) {
+      case 27:
+        this.hidePopup();
+        //console.log("SHOWPOPUP: ", this.state.showPopup);
+        return;
+      default:
+        console.log(e.keyCode);
     }
   }
 
@@ -21,7 +48,8 @@ class World extends Component {
     newTiles[y][x] = 0;
 
     this.setState({
-      tiles: newTiles
+      tiles: newTiles,
+      showPopup: true
     });
   }
 
@@ -37,6 +65,14 @@ class World extends Component {
       >
         <Map tiles={this.state.tiles} />
         <Player tiles={this.state.tiles} handleRemoveObstacle={this.handleRemoveObstacle} />
+
+        {this.state.showPopup ? (
+          <Popup
+            //TODO: fetches question according to coordinates
+            text="QUIZ QUESTION"
+            closePopup={this.hidePopup.bind(this)}
+          />
+        ) : null}
       </div>
     );
 
