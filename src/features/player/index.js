@@ -118,8 +118,8 @@ class Player extends React.Component {
   attemptMove(direction) {
     const oldPos = this.state.position;
     const newPos = this.getNewPosition(oldPos, direction);
-    //TODO: Don't allow player to move if quiz-in-progress aka togglePopup is true
-    if (this.observeBoundaries(oldPos, newPos) && this.observeImpassable(oldPos, newPos))
+    //TODO: Don't allow player to move if quiz-in-progress aka props.showPopup is true
+    if (this.observeBoundaries(oldPos, newPos) && this.observeImpassable(oldPos, newPos) && !this.props.showPopup)
       this.dispatchMove(direction, newPos);
   }
 
@@ -135,7 +135,6 @@ class Player extends React.Component {
         return this.attemptMove("EAST");
       case 40:
         return this.attemptMove("SOUTH");
-
       case 32: //spacebar
         return this.removeObstacle();
 
@@ -144,7 +143,6 @@ class Player extends React.Component {
     }
   }
   
-
   render () {
     return (
       <div

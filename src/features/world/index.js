@@ -64,7 +64,7 @@ class World extends Component {
         }}
       >
         <Map tiles={this.state.tiles} />
-        <Player tiles={this.state.tiles} handleRemoveObstacle={this.handleRemoveObstacle} />
+        <Player tiles={this.state.tiles} showPopup={this.state.showPopup} handleRemoveObstacle={this.handleRemoveObstacle} />
 
         {this.state.showPopup ? (
           <Popup
@@ -75,8 +75,7 @@ class World extends Component {
         ) : null}
       </div>
     );
-
-      }
+  }
 }
 
 export default World;
