@@ -1,0 +1,2029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      style="position: relative; width: 1200px; height: 640px; margin: 20px auto;"
+    >
+      <div
+        style="position: relative; top: 0px; left: 0px; width: 1200px; height: 640px; border: 4px solid white;"
+      >
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile snorlax"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile pikachu"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile bulbasaur"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile whale"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile pikachu"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile farfetch"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile charizard"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile bulbasaur"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile dratini"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile mario"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile rock"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile jigglypuff"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile house"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile grass"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+        <div
+          class="row"
+          style="height: 40px;"
+        >
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+          <div
+            class="tile tree"
+            style="height: 40px; width: 40px;"
+          />
+        </div>
+      </div>
+      <div
+        style="position: absolute; top: 0px; left: 0px; background-image: url(rsz_pokemonplayer.png); background-position: 0px 0px; width: 40px; height: 40px;"
+      />
+    </div>
+    <div
+      class="react-player"
+      style="width: 0%; height: 0%;"
+    >
+      <div
+        style="width: 100%; height: 100%;"
+      >
+        <div />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

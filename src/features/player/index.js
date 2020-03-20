@@ -75,14 +75,14 @@ class Player extends React.Component {
     return nextTile < 3;
   }
 
-  passThroughImpassable(oldPos, newPos) {
-    const tiles = this.props.tiles;
-    const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
-    const x = newPos[0] / SPRITE_SIZE;
-    const nextTile = tiles[y][x];
+  // passThroughImpassable(oldPos, newPos) {
+  //   const tiles = this.props.tiles;
+  //   const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
+  //   const x = newPos[0] / SPRITE_SIZE;
+  //   const nextTile = tiles[y][x];
 
-    return nextTile < 3 || nextTile > 6;
-  }
+  //   return nextTile < 3 || nextTile > 6;
+  // }
 
   isObstacle(newPos) {
     const tiles = this.props.tiles;
@@ -119,7 +119,11 @@ class Player extends React.Component {
     const oldPos = this.state.position;
     const newPos = this.getNewPosition(oldPos, direction);
     //TODO: Don't allow player to move if quiz-in-progress aka props.showPopup is true
-    if (this.observeBoundaries(oldPos, newPos) && this.observeImpassable(oldPos, newPos) && !this.props.showPopup)
+    if (
+      this.observeBoundaries(oldPos, newPos) &&
+      this.observeImpassable(oldPos, newPos) &&
+      !this.props.showPopup
+    )
       this.dispatchMove(direction, newPos);
   }
 
@@ -142,8 +146,8 @@ class Player extends React.Component {
         console.log(e.keyCode);
     }
   }
-  
-  render () {
+
+  render() {
     return (
       <div
         style={{
@@ -158,7 +162,6 @@ class Player extends React.Component {
       />
     );
   }
-  
 }
 
 export default Player;

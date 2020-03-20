@@ -4,10 +4,16 @@ import "./style.css";
 class Popup extends React.Component {
   render() {
     return (
-      <div className="popup">
-        <div className="popup_inner">
-          <h1>{this.props.text}</h1>
-          <button onClick={this.props.closePopup}>close me</button>
+      <div data-testid="POPUP" className="popup">
+        <div data-testid="POPUP_INNER" className="popup_inner">
+          <h1 data-testid="TEXT">{this.props.text}</h1>
+          <button
+            data-testid="BUTTON"
+            onClick={this.props.closePopup}
+            label="Close me"
+          >
+            close me
+          </button>
         </div>
       </div>
     );

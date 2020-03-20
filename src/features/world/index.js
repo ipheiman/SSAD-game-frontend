@@ -12,8 +12,8 @@ class World extends Component {
     this.state = {
       tiles: tiles,
       showPopup: false
-      // questions: 
-    }
+      // questions:
+    };
   }
 
   componentDidMount() {
@@ -26,7 +26,7 @@ class World extends Component {
     this.setState({
       showPopup: false
     });
-  }
+  };
 
   handleKeyDown(e) {
     e.preventDefault();
@@ -41,7 +41,7 @@ class World extends Component {
     }
   }
 
-  handleRemoveObstacle = (pos) => {
+  handleRemoveObstacle = pos => {
     var newTiles = this.state.tiles;
     const y = pos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
     const x = pos[0] / SPRITE_SIZE;
@@ -51,7 +51,7 @@ class World extends Component {
       tiles: newTiles,
       showPopup: true
     });
-  }
+  };
 
   render() {
     return (
@@ -64,7 +64,11 @@ class World extends Component {
         }}
       >
         <Map tiles={this.state.tiles} />
-        <Player tiles={this.state.tiles} showPopup={this.state.showPopup} handleRemoveObstacle={this.handleRemoveObstacle} />
+        <Player
+          tiles={this.state.tiles}
+          showPopup={this.state.showPopup}
+          handleRemoveObstacle={this.handleRemoveObstacle}
+        />
 
         {this.state.showPopup ? (
           <Popup
