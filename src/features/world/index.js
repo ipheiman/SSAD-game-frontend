@@ -11,8 +11,8 @@ class World extends Component {
     // this.handleKeyPress = this.handleKeyPress.bind(this);
     this.state = {
       tiles: tiles,
-      showPopup: false
-      // questions:
+      showPopup: false,
+      pokemon: ''
     };
   }
 
@@ -25,6 +25,12 @@ class World extends Component {
   hidePopup = () => {
     this.setState({
       showPopup: false
+    });
+  };
+
+  setPokemon = pokemon => {
+    this.setState({
+      pokemon: pokemon
     });
   };
 
@@ -68,12 +74,15 @@ class World extends Component {
           tiles={this.state.tiles}
           showPopup={this.state.showPopup}
           handleRemoveObstacle={this.handleRemoveObstacle}
+          setPokemon={this.setPokemon}
         />
 
         {this.state.showPopup ? (
           <Popup
             //TODO: fetches question according to coordinates
             text="QUIZ QUESTION"
+            pokemon={this.state.pokemon} 
+            //TODO: only appears after question has been answered correctly
             closePopup={this.hidePopup.bind(this)}
           />
         ) : null}

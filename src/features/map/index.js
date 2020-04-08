@@ -81,7 +81,7 @@ function MapRow(props) {
 
 //action
 function Map(props) {
-  console.log(props.tiles);
+  //console.log(props.tiles);
   return (
     <div
       style={{

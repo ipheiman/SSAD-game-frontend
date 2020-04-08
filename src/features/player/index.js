@@ -75,22 +75,40 @@ class Player extends React.Component {
     return nextTile < 3;
   }
 
-  // passThroughImpassable(oldPos, newPos) {
-  //   const tiles = this.props.tiles;
-  //   const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
-  //   const x = newPos[0] / SPRITE_SIZE;
-  //   const nextTile = tiles[y][x];
-
-  //   return nextTile < 3 || nextTile > 6;
-  // }
+  getPokemon(num){
+    switch(num){
+      case 7:
+        return 'battle-snorlax';
+      case 8:
+        return 'battle-pikachu';
+      case 9:
+        return "battle-charizard";
+      case 10:
+        return "battle-bulbasuar";
+      case 11:
+        return "battle-dratini";
+      case 12:
+        return "battle-clefairy";
+      case 13:
+        return "battle-marill";
+      case 14:
+        return "battle-spearow";
+      case 15:
+        return "battle-seel";
+      default:
+        return;
+    }
+  }
 
   isObstacle(newPos) {
     const tiles = this.props.tiles;
     const y = newPos[1] / SPRITE_SIZE; //40 divide 40 = 1 step
     const x = newPos[0] / SPRITE_SIZE;
     const nextTile = tiles[y][x];
-
-    return nextTile > 6;
+    if(nextTile>6){
+      this.props.setPokemon(this.getPokemon(nextTile));
+      return true;
+    }
   }
 
   //dispatch
@@ -104,13 +122,14 @@ class Player extends React.Component {
     });
   }
 
-  //remove pokemon after pressing spacebar when beside the pokemon
+  //remove pokemon after pressing spacebar when pokemon in front of player
   removeObstacle() {
     const oldPos = this.state.position;
     const direction = this.state.direction;
     const newPos = this.getNewPosition(oldPos, direction);
 
     if (this.isObstacle(newPos)) {
+
       this.props.handleRemoveObstacle(newPos);
     }
   }
@@ -118,11 +137,10 @@ class Player extends React.Component {
   attemptMove(direction) {
     const oldPos = this.state.position;
     const newPos = this.getNewPosition(oldPos, direction);
-    //TODO: Don't allow player to move if quiz-in-progress aka props.showPopup is true
     if (
       this.observeBoundaries(oldPos, newPos) &&
       this.observeImpassable(oldPos, newPos) &&
-      !this.props.showPopup
+      !this.props.showPopup //cannot move when doing quiz
     )
       this.dispatchMove(direction, newPos);
   }
@@ -139,7 +157,7 @@ class Player extends React.Component {
         return this.attemptMove("EAST");
       case 40:
         return this.attemptMove("SOUTH");
-      case 32: //spacebar
+      case 32: //esc
         return this.removeObstacle();
 
       default:

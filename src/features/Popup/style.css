@@ -9,13 +9,132 @@
   margin: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.popup_inner {
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  top: 25%;
-  bottom: 25%;
+
+/*#region Battle-Backgrounds*/
+.battle-pikachu {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
   margin: auto;
   border-radius: 20px;
-  background: white;
+  background-image: url("/battle/battle-pikachu.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-snorlax {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/alive-snorlax.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-bulbasuar {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/battle-bulbasaur.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-charizard {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/battle-charizard.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-clefairy {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/battle-clefairy.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-dratini {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/battle-dratini.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-marill {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/battle-marill.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-seel {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/battle-seel.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.battle-spearow {
+  position: relative;
+  top: 2%;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 20px;
+  background-image: url("/battle/battle-spearow.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+/* #endregion */
+
+.popup-header{
+  position: relative;
+  padding-top: 15px;
+  text-align: center;
+  color: #d8b9c3;
+}
+.popup-btn-run{
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  width: 80px;
+  height: 30px;
+  bottom: 20px;
+  right: 80px;
+  background-color: beige;
+  color: black;
 }
